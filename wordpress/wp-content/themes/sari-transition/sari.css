@@ -171,18 +171,18 @@ h2 {
 }
 
 .page-wrapper {
-	max-width: 650px;
+	/*max-width: 650px;
 	width: 100%;
 	min-height: 60vh;
     margin: auto;
     padding: 50px;
     color: black;
-    background-color: lightgray;
+    background-color: lightgray;*/
 }
 @media (max-width: 900px) {
 	.page-wrapper {
-		margin-left: 0px;
-		padding:20px;
+		/*margin-left: 0px;
+		padding:20px;*/
 	}
 }
 .page-wrapper p {
