@@ -1,4 +1,3 @@
-
 var today = new Date(); //today date
 var calendar = 'nowherekitchen@gmail.com'
 var apiKey = 'AIzaSyB8QPPR3rH-xXQVDC-JLb7WtMl8QyHXId8'
@@ -59,11 +58,11 @@ $(document).ready(function() {
     var randColor = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
     $(".hero-image").css('background-color', randColor);
     $(".hero-image").css({
-          	'-webkit-transition': 'all 3s ease-in-out',
-	        '-moz-transition': 'all 3s ease-in-out',
+            '-webkit-transition': 'all 3s ease-in-out',
+          '-moz-transition': 'all 3s ease-in-out',
       '-o-transition': 'all 3s ease-in-out',
-	    '-ms-transition': 'all 3s ease-in-out',
-	    'transition': 'all 3s ease-in-out'
+      '-ms-transition': 'all 3s ease-in-out',
+      'transition': 'all 3s ease-in-out'
     });
     setInterval(function(){
         var randColor = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);

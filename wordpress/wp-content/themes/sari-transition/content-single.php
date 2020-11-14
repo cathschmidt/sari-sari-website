@@ -1,10 +1,13 @@
 <div class="blog-post">
-	<h2 class="blog-post-title"><?php the_title(); ?></h2>
+    <img class="cover-img" src="<?php the_field('cover_image'); ?>"/>
 
-<?php echo $meta['date']; ?>
-<?php echo $meta['text']; ?>
+	<h2 class="event-post-title"><?php the_title(); ?></h2>
 
- <?php the_content(); ?>
+    <p class="event-date"><?php the_field('event_date'); ?></p>
+
+    <div class="event-content">
+        <?php the_content(); ?>
+    </div>
 
 
 </div><!-- /.blog-post -->

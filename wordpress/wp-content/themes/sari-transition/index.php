@@ -1,24 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/sari.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-    <script src="<?php echo get_bloginfo('template_directory'); ?>/moment.js"></script>
-    <script src="<?php echo get_bloginfo('template_directory'); ?>/app.js"></script>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>sari sari</title>
-</head>
-<body>
+<?php
+get_template_part('head');
+?>
 
-	<div class="title">
-		<h1 style="font-weight: bold; font-style:italic;">sari-sari</h1>
-		<div class="location-right">lichtenrader 49, 12049 berlin</div>
-	</div>
+<?php
+get_template_part('header');
+?>
 
 <div class="left-column">
 
 	<div class="events-feed">
-		<h2>Upcoming Events</h2>
+		<h2 class="upcoming-events-title">Upcoming Events</h2>
         <div class="events-wrapper"></div>
 	</div>
 </div>
@@ -34,11 +25,10 @@
 	</div>
 </div>
 
-<div class="footer" style="widht:100%;">
-<a class="footer-link" href="http://instagram.com/sarisari.collective">instagram</a>
-<a class="footer-link" href="https://www.facebook.com/nowherekitchenhome/">facebook</a>
-<a class="footer-link" href="mailto:contact@sarisarisalon.org">contact@sarisarisalon.org</a>
-</div>
+<?php
+get_template_part('footer');
+?>
 
-</body>
-</html>
+<?php
+get_template_part('foot');
+?>
