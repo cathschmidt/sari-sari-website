@@ -26,6 +26,8 @@ body {
 	font-size: 18px;
 	line-height: 24px;
 	background: linear-gradient(180deg, #B5DE3F 0%, rgba(223, 243, 164, 0.557292) 61.98%, rgba(255, 255, 255, 0) 100%), #FF9494;
+	background-position: fixed;
+	background-size: 100% 100%;
 	width: 80%;
 	margin: auto;
 }

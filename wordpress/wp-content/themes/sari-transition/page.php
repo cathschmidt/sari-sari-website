@@ -1,4 +1,10 @@
+<?php
+get_template_part('head');
+?>
 
+<?php
+get_template_part('header');
+?>
 	<div>
 		<div>
 
@@ -12,3 +18,11 @@
 
 		</div>
 	</div>
+
+<?php
+get_template_part('footer');
+?>
+
+<?php
+get_template_part('foot');
+?>

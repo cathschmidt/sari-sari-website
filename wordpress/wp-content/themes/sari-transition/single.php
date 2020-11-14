@@ -1,4 +1,10 @@
+<?php
+get_template_part('head');
+?>
 
+<?php
+get_template_part('header');
+?>
 	<div>
         <?php
             if ( have_posts() ) : while ( have_posts() ) : the_post();
@@ -6,3 +12,10 @@
             endwhile; endif;
         ?>
 	</div>
+<?php
+get_template_part('footer');
+?>
+
+<?php
+get_template_part('foot');
+?>
