@@ -6,16 +6,28 @@
 	font-size: 15px;
 }
 
+@font-face {
+	font-family: "Syne Regular";
+	src: url("Syne-Regular.otf");
+}
+
+@font-face {
+	font-family: "Syne Extended";
+	src: url("Syne-Extra.otf");
+}
+
 body {
-	line-height: 20px;
-	color: #937D63;
+	color: black;
 	margin: 3em 5em;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	/*justify-content: space-between;*/
-	flex-wrap: wrap;
-	font-family: serif;
-	font-family: ;
+	font-family: "Syne Regular", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	background: linear-gradient(180deg, #B5DE3F 0%, rgba(223, 243, 164, 0.557292) 61.98%, rgba(255, 255, 255, 0) 100%), #FF9494;
+	width: 80%;
+	margin: auto;
 }
 
 
@@ -42,12 +54,11 @@ a.footer-link:hover {
 }
 
 h2 {
-	margin-bottom: 2em;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	font-family: "Syne-Extra", serif;
 }
 
-.events-feed {
-	max-width: 470px;
-}
 
 .title {
 	width: 100%;
@@ -88,9 +99,7 @@ h2 {
 	margin-right: 35px;
 }
 
-body {
-	background-color: blue;
-}
+
 
 @media (max-width: 900px) {
 	.footer {
